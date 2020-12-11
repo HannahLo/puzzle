@@ -19,9 +19,10 @@ digit = '#'
 
 def count(x, y):
     times = 0
-    loop = height / y
-    if y > 1:
-        loop += 1
+    if y == 1:
+        loop = height
+    else:
+        loop = (height / y) + 1
     for n in range(0, loop):
         down = n * y
         right = (x * n) % width

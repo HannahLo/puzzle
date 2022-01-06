@@ -3,7 +3,7 @@
 線上測試/練習好網站
 https://regex101.com/
 
-[Workshop Slide](regex/Regular\ Expression\ Workshop.pdf)
+[Workshop Slide](https://github.com/HannahLo/puzzle/blob/main/regex/Regular%20Expression%20Workshop.pdf)
 
 [KQL](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 

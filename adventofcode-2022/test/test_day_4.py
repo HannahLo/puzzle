@@ -2,21 +2,12 @@ import unittest
 import day_4 as day
 
 data = '''\
-1000
-2000
-3000
-
-4000
-
-5000
-6000
-
-7000
-8000
-9000
-
-10000
-
+2-4,6-8
+2-3,4-5
+5-7,7-9
+2-8,3-7
+6-6,4-6
+2-6,4-8
 '''
 
 class TestDay_4(unittest.TestCase):
@@ -33,7 +24,7 @@ class TestDay_4(unittest.TestCase):
 
     def test_quest_2(self):
         result = day.quest_2(data)
-        # self.assertEqual(result, 45000)
+        self.assertEqual(result, 4)
 
 if __name__ == "__main__":
     unittest.main()
